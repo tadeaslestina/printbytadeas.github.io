@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintByTadeáš | 3D tisk na zakázku</title>
+    <style>
+        :root { --orange: #ff6600; --dark: #1a1a1a; --gray: #2d2d2d; --text: #eeeeee; }
+        body { background-color: var(--dark); color: var(--text); font-family: sans-serif; margin: 0; line-height: 1.6; }
+        header { padding: 2rem; text-align: center; background: linear-gradient(to bottom, #000, var(--dark)); }
+        h1 { color: var(--orange); margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .hero { text-align: center; padding: 50px 0; }
+        .btn { background: var(--orange); color: white; padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; margin-top: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px; }
+        .card { background: var(--gray); padding: 20px; border-radius: 10px; border-bottom: 3px solid var(--orange); }
+        .form-section { background: var(--gray); padding: 40px; border-radius: 10px; margin-top: 50px; text-align: center; }
+        footer { text-align: center; padding: 40px; font-size: 0.8rem; color: #888; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PrintByTadeáš</h1>
+    <p>Precizní 3D tisk a prototypování</p>
+</header>
+
+<div class="container">
+    <section class="hero">
+        <h2>Váš nápad. Mé vrstvy. Realita.</h2>
+        <p>Tisknu funkční díly, prototypy i dárky na míru. Rychle, kvalitně a za férové ceny.</p>
+        <a href="#poptavka" class="btn">CHCI CENOVOU NABÍDKU</a>
+    </section>
+
+    <div class="grid">
+        <div class="card">
+            <h3>PLA</h3>
+            <p>Ideální pro detailní modely, dekorace a postavičky. Velký výběr barev.</p>
+        </div>
+        <div class="card">
+            <h3>PETG</h3>
+            <p>Odolný materiál pro funkční díly. Skvělý poměr pevnosti a pružnosti.</p>
+        </div>
+        <div class="card">
+            <h3>ASA</h3>
+            <p>Materiál pro venkovní použití. Odolá slunci, dešti i vyšším teplotám.</p>
+        </div>
+    </div>
+
+    <section id="poptavka" class="form-section">
+        <h2>Máte model k tisku?</h2>
+        <p>Nahrajte svůj soubor (.STL, .STEP) a já vám pošlu nacenění.</p>
+        <a href="https://tally.so" target="_blank" class="btn" style="background: #444;">OTEVŘÍT FORMULÁŘ PRO SOUBORY</a>
+        <p style="font-size: 0.9rem; margin-top: 15px;">Nebo mi napište na: <strong>tadeas@email.cz</strong></p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 PrintByTadeáš | Vytvořeno s vášní pro 3D tisk
+</footer>
+
+</body>
+</html>
